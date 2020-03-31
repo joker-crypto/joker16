@@ -1,0 +1,27 @@
+
+RewriteEngine on
+
+
+RewriteRule ^hello?$ index1.php
+RewriteRule ^Unknown?$ admin-page.php
+RewriteRule ^Unknown1?$ managersignup.php
+
+RewriteRule ^mbr?$ mybranch.php
+RewriteRule ^mbrr?$ mybranch.php
+
+RewriteRule ^cus?$ contactus.php
+RewriteRule ^aus?$ aboutus.php
+RewriteRule ^alt?$ all-tickets.php
+
+RewriteRule ^alo?$ all-orders.php
+RewriteRule ^alor?$ all-orders.php
+
+RewriteRule ^ss?$ sales.php
+RewriteRule ^cw?$ cust_wallet.php
+RewriteRule ^us?$ users.php
+
+RewriteRule ^log?$ login.php
+RewriteRule ^receipt?$ tickets.php
+RewriteRule ^Feedback?$ tickets.php
+RewriteRule ^adp?$ admin-page.php
+RewriteRule ^details?$ details.php
